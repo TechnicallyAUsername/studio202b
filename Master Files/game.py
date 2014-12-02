@@ -5,6 +5,7 @@
 import bge; #imports the blender game engine
 import os.path;
 turtleCharacter = "../Models/turtle.blend"
+rabbitCharacter = "../Models/rabbit.blend"
 levelOne = "../Environments/level1withAddedForestAssets.blend" #this is the path for level one
 levelTwo = "../Environments/level2roughsketch.blend" #this is the path for level two
 levelThree = "../Environments/Cianna_CaveEnviro2.blend" #this is the path for level three
@@ -31,38 +32,49 @@ def loadLevelOne():
 	print("Load Level One");
 	loadAsset(levelOne);
 	loadAsset(turtleCharacter);
+	loadAsset(rabbitCharacter);
 	
 def unloadLevelOne():
 	print("unloading level one");
 	unloadAsset(levelOne);
 	unloadAsset(turtleCharacter);
+	unloadAsset(rabbitCharacter);
 
 def loadLevelTwo(): #Loads level 2
 	print("Load Level Two");
 	unloadLevelOne();
 	loadAsset(levelTwo);
 	loadAsset(turtleCharacter);
+	loadAsset(rabbitCharacter);
 	
 def unloadLevelTwo(): #unloads level 2
 	print("unloading level two");
 	unloadAsset(levelTwo);
 	unloadAsset('turtleCharacter');
+	unloadAsset(rabbitCharacter);
 
 def loadLevelThree(): #loads level 3
 	print("load Level Three");
 	unloadLevelTwo();
 	loadAsset(levelThree);
 	loadAsset(turtleCharacter);
+	loadAsset(rabbitCharacter);
 	
 def unloadLevelThree(): #unloads level 3
 	print("unloading level three");
 	unloadAsset(levelThree);
 	unloadAsset('turtleCharacter');
+	unloadAsset(rabbitCharacter);
 	
 def loadLevelFour():
 	print("loading level four");
 	unloadLevelThree();
 	loadAsset(levelFour);
 	loadAsset(turtleCharacter);
+	loadAsset(rabbitCharacter);
+	
+def LoadRabbit():
+	loadAsset(rabbitCharacter);
+	
 
 	
