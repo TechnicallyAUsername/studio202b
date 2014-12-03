@@ -5,3 +5,9 @@ I am merging all of our files into one directory. It can always be reeorganized 
 
 Jay:Artem only asked for a basic collection of sound effects for week one to build up our resevoir. In this file, you have the bulk of the 
 self made sound effects I still have. All of these are to be used freely if and where neccessessary. God's speed and good luck!
+
+If any of the levels need other sound offects, please contact the perston ressponsible for that level:
+
+Jay: undergroud/cave, forest
+Artem: beach/volcano, underwater
+Anna: city, sky
