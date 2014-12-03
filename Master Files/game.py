@@ -3,6 +3,7 @@
 """
 
 import bge; #imports the blender game engine
+import bpy;
 import os.path;
 turtleCharacter = "../Models/turtle.blend"
 rabbitCharacter = "../Models/rabbit.blend"
@@ -33,6 +34,10 @@ def loadLevelOne():
 	loadAsset(levelOne);
 	loadAsset(turtleCharacter);
 	loadAsset(rabbitCharacter);
+
+#Now The parent of b is a
+	#os.system("cameraParent.bindCamera");
+	#Camera.position = [0,0,100]; # moveCamera
 	
 def unloadLevelOne():
 	print("unloading level one");
