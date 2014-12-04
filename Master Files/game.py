@@ -11,6 +11,7 @@ levelOne = "../Environments/level1withAddedForestAssets.blend" #this is the path
 levelTwo = "../Environments/level2roughsketch.blend" #this is the path for level two
 levelThree = "../Environments/Cianna_CaveEnviro2.blend" #this is the path for level three
 levelFour = "../Environments/level5sky.blend"
+levelFive = "../Environments/gustavo_nov27th_city_updated.blend"
 
 def startup():
 	print("Game is starting up! Press the number keys to load different levels. Please only press in order, or the game may crash."); #verifies that game is running
@@ -75,6 +76,17 @@ def loadLevelFour():
 	print("loading level four");
 	unloadLevelThree();
 	loadAsset(levelFour);
+	loadAsset(turtleCharacter);
+	loadAsset(rabbitCharacter);
+	
+def unloadLevelThree():
+	print("unloading level four);
+	unloadAsset();
+	
+def LoadLevelFive
+	print("loading level four")
+	unloadlevelFour();
+	loadAsset(levelFive);
 	loadAsset(turtleCharacter);
 	loadAsset(rabbitCharacter);
 	
