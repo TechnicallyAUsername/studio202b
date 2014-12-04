@@ -2,6 +2,8 @@ studio202b
 ==========
 Please label your files relavent to what they are, and please make sure to add a note about what the changes are.
 PLEASE SYNC EACH TIME BEFORE YOU START WORKING ON ANYTHING.
+<<<<<<< HEAD
+=======
 
 LEVEL ONE: FOREST
 
@@ -76,3 +78,4 @@ LEVEL SEVEN: UNDERGROUND (Cinematic: some kind of transition...maybe subway/clim
 Assets Needed:
 
 Animations:
+>>>>>>> 3cc311832a0f30d94403df77789a2b7f1539207c
